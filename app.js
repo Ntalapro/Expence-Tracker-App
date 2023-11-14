@@ -85,12 +85,12 @@ function display() {
 
         transactionsID.innerHTML += `
     
-    <div class="transaction ${myClass}">
-            <div class="detail">${state.transactions[i].detail}</div>
-            <div class="amount">R${state.transactions[i].amount}</div>
-            <div class="delete">
-               <button onclick="removeTransaction(${state.transactions[i].id})"> X </button>
-            </div>
+        <div class="transaction ${myClass}">
+                <div class="detail">${state.transactions[i].detail}</div>
+                <div class="amount">R${state.transactions[i].amount}</div>
+                <div class="delete">
+                    <button onclick="removeTransaction(${state.transactions[i].id})"> X </button>
+                </div>
         </div>
     
     `
